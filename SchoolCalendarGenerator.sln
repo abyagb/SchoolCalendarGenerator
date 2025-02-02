@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolCalendarGenerator", "SchoolCalendarGenerator\SchoolCalendarGenerator.csproj", "{E34D2156-E87F-4CDD-8E1E-FCE7ACF28E54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{75FC38F5-4DF9-4985-9D17-B5AA247D5E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{E34D2156-E87F-4CDD-8E1E-FCE7ACF28E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E34D2156-E87F-4CDD-8E1E-FCE7ACF28E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E34D2156-E87F-4CDD-8E1E-FCE7ACF28E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FC38F5-4DF9-4985-9D17-B5AA247D5E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FC38F5-4DF9-4985-9D17-B5AA247D5E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FC38F5-4DF9-4985-9D17-B5AA247D5E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FC38F5-4DF9-4985-9D17-B5AA247D5E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
