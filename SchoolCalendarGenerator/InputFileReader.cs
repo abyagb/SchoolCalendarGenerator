@@ -14,6 +14,13 @@ public static class InputFileReader
             HasHeaderRecord = true 
         });
 
+        if (csv.Read())
+        {
+            csv.ReadHeader();
+            var headers = csv.HeaderRecord;
+        }
+        
+
         return csv.GetRecords<SchoolTerm>().ToList(); // Maps CSV rows to `SchoolTerm` objects
     }
 }
